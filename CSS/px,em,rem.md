@@ -1,8 +1,8 @@
 ## px, em, rem
-- px
+- `px`
   - 절대 단위 (값이 고정되어 있는 절대값의 단위)
     
-- em(element), rem(root em)
+- `em(element)`, `rem(root em)`
   - 상대 단위 (환경에 따라 유동적으로 변하는 상대 단위) - em, rem, %, vw, vh …
   - em (부모 요소의 폰트 사이즈를 곱한 값)
       - 해당 단위가 사용되고 있는 요소의 font-size를 기준으로 px로 바뀌어 화면에 표시됨
