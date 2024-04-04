@@ -13,3 +13,8 @@
     - 로딩이 되면 suspense로 감싼 요소들만 html 요소로 넘겨줌
     - 다른 부분은 로딩 화면으로 남아있을 수도 있음 (부분 렌더링)
     - 점진적으로 완성해나감
+   
+  ---------
+
+  ### [ Code ]
+  https://github.com/annaleeee/Next.js_streaming
