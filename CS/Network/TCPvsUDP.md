@@ -1,3 +1,3 @@
 ## TCP와 UDP
 - TCP (Tranmission Control Protocol)
-- UDO (User Datagram Protocol)
+- UDP (User Datagram Protocol)
