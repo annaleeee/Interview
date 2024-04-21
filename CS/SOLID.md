@@ -1,6 +1,6 @@
 ## OOP (객체 지향 프로그래밍) 설계 원칙
 - OOP (Object Oriented Programming) 설계 원칙 <br>
- ⇒ SOLID 원칙
+ ⇒ SOLID 객체지향 설계 원칙
 
 -------
 
