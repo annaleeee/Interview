@@ -94,3 +94,9 @@
     linkedList.insertAt("Good Night");
     console.log(linkedList.head); // 첫번째 노드에 접근
     ```
+
+---
+
+#### [ Velog ]
+https://velog.io/@annaleeee/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8-Linked-List
+  
