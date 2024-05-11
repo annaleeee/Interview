@@ -4,6 +4,8 @@
   - React.memo( ) → props의 값으로 변경을 확인
   - useCallback( ), useMemo( ) → dependency 배열 내부의 값으로 변경사항 확인
 
+---
+
 1) React.memo(컴포넌트)
 
 - 컴포넌트 자체를 메모이제이션
