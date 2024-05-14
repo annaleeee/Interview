@@ -2,7 +2,7 @@
 - 처리능력 증대 ( Throughput )
     - 일정 시간 내 시스템이 처리하는 일의 양
       
-- 응답시간 (반환시간) 단축 ( Turn Around Time )
+- 응답시간 ( 반환시간 ) 단축 ( Turn Around Time )
     - 시스템에 작업을 의뢰한 시간부터 처리가 완료될때까지 걸린 시간
       
 - 사용가능도 증대 ( Availability )
