@@ -1,0 +1,12 @@
+## Merge vs Rebase
+- Merge
+  - branch 통합
+    - 다른 branch에서 여태 commit한 내용을 하나의 merge commit으로 합치는 것
+- Rebase
+  - branch의 base를 옮김
+    - base의 위치를 변경해서 다른 branch에서 commit한 내역을 최신으로 보고 그대로 끌어오는 식으로 합치는 것
+      - 중복 로그를 남기지 않음
+      - 주로 히스토리를 깔끔하게 유지하기 위해 사용
+  - 히스토리를 지움 → conflict 발생 가능, 데이터 유실 가능
+  - 공개된 branch에서 rebase 하면 안됨
+    - 다른 사람이 그 branch에서 작업 중일 수도 있기 때문
