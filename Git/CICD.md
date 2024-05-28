@@ -2,6 +2,7 @@
 - CI/CD
   - 지속적 통합 (Continuous Integration) 및 지속적 제공/배포(Continous Delivery/Deployment) <br>
     ⇒ CI/CD 파이프라인
+  ![Untitled](https://github.com/annaleeee/Interview/issues/1#issue-2321148257)
   - 소프트웨어 개발 라이프사이클을 간소화 및 가속화하는 것을 목표로 함
   - `지속적 통합 (CI)`
       - 코드 변경 사항을 공유 소스 코드 리포지토리에 자동으로 자주 통합하는 사례
