@@ -1,0 +1,11 @@
+## REST API
+- REST API
+  - REST를 기반으로 만들어진 API
+- REST
+  - 서버 클라이언트 구조로, http method를 통해 해당 자원에 대한 CRUD Operation 적용
+    - CRUD ( Create, Read, Update, Delete )
+      - 대부분의 컴퓨터 소프트웨어가 가지는 기본적인 데이터 처리 기능
+  - 구성 요소
+    - 자원 ( Resource ) : HTTP URI
+    - 자원에 대한 행위 ( Verb ) : HTTP Method
+    - 자원에 대한 행위의 내용 ( Representations ) : HTTP Message Pay Load
