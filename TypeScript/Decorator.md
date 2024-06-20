@@ -11,3 +11,12 @@
   
   - 정식 지원하는 문법이 아닌 실험적인 기능임 <br>
       → 사용하기 위해, tsconfig.json 파일에서 experimentalDecorators 속성 추가해주어야 함
+
+  ```
+    // tsconfig.json 
+    {
+      "compilerOptions": {
+        "experimentalDecorators": true
+      }
+    }
+  ```
