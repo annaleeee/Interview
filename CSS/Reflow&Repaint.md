@@ -12,4 +12,15 @@
   - 레이아웃에 영향을 주지 않는 엘리먼트 개별의 변화에 대해서는 repaint만 발생
     - color, background-color, visibility, opacity … <Br>
     → Reflow는 Repaint를 유발하지만, Repaint는 Reflow를 유발하지 않음
+
+#### [ reflow가 발생하는 경우 ]
+- DOM 노드의 추가, 제거
+- DOM 노드의 위치 변경
+- DOM 노드의 크기 변경 (margin, padding, border, width, height 등)
+- CSS3 애니메이션과 트랜지션
+- 폰트 변경, 텍스트 내용 변경
+- 이미지 크기 변경
+- offset, scrollTop, scrollLeft와 같은 계산된 스타일 정보 요청
+- 페이지 초기 렌더링
+- 윈도우 리사이징
   
