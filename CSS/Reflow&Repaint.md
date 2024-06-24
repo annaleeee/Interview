@@ -13,6 +13,8 @@
     - color, background-color, visibility, opacity … <Br>
     → Reflow는 Repaint를 유발하지만, Repaint는 Reflow를 유발하지 않음
 
+---
+
 #### [ reflow가 발생하는 경우 ]
 - DOM 노드의 추가, 제거
 - DOM 노드의 위치 변경
@@ -23,4 +25,21 @@
 - offset, scrollTop, scrollLeft와 같은 계산된 스타일 정보 요청
 - 페이지 초기 렌더링
 - 윈도우 리사이징
+
+#### [ reflow 최적화 ]
+- 가능한 reflow 안 하는 것이 성능 측면에서 유리함 <br>
+  → 비용을 발생시키는 절차이므로 (특정 요소에서 리플로우가 발생하면 주변 요소에도 영향을 주기 때문)
+- 스타일을 변경할 경우 가장 하위 노드의 클래스를 변경
+- 인라인 스타일 사용 X
+- 애니메이션이 있는 노드는 position을 fixed 또는 absolute로 지정
+  - 애니메이션 효과는 많은 reflow 비용 발생시킴
+  - fixed, absolute → 지정된 노드를 전체 노드에서 분리시켜 해당 노드에서만 reflow가 발생하도록 제한시킬 수 있음
+- table 레이아웃을 피한다
+  - <table>은 점진적으로 렌더링 되지 않고, 모두 로드되고 테이블 너비가 계산된 후에 화면에 그려짐
+- css 하위 선택자를 최소화 함
+- 숨겨진 노드의 스타일을 변경한다
+  - 숨겨진 노드를 표시하기 전에 노드의 컨텐츠를 먼저 변경한 후 화면에 나타내면 reflow 줄일 수 있음
+- DOM 사용 최소화
+  - DOM Fragment 사용 (createDocumentFragment)
+- 캐시 활용
   
