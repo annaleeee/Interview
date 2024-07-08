@@ -17,4 +17,10 @@
 - 문자형( string )데이터 타입만 지원
 
 ---
+
+- 로컬 스토리지 ( Local Storage )
+- 세션 스토리지 ( Session Storage )
+
+
+
   
