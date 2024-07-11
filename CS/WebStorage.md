@@ -37,6 +37,10 @@
   - 잠시 동안 필요한 정보를 저장
     - 입력 폼 저장, 일회성 로그인
 
+---
+
+#### [ cookie vs local storage vs session storage ]
+
 
 
   
