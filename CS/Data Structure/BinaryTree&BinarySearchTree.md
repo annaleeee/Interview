@@ -11,7 +11,7 @@
     - 모든 왼쪽 자식의 값이 루트나 부모보다 작고, 모든 오른쪽 자식의 값이 루트나 부모보다 큰 값을 가짐
   - 이진 탐색 트리 구현 코드
     
-    ```
+    ```jsx
       class treeNode {
       constructor(data) {
         this.data = data;
