@@ -10,7 +10,6 @@
   - 왼쪽 노드는 작고, 오른쪽으로 갈 수록 노드가 커짐
     - 모든 왼쪽 자식의 값이 루트나 부모보다 작고, 모든 오른쪽 자식의 값이 루트나 부모보다 큰 값을 가짐
   - 이진 탐색 트리 구현 코드
-    
     ```jsx
       class treeNode {
       constructor(data) {
@@ -62,3 +61,13 @@
       
       console.log(nums);
     ```
+---
+#### [ 이진 트리 순회 방법 ]
+- 전위 순회 ( preorder traversal ) VLR
+  - 루트 → 왼쪽 → 오른쪽
+- 중위 순회 (inorder traversal) LVR
+  - 왼쪽 → 루트 → 오른쪽
+- 후위 순회 (postorder traversal) LRV
+  - 왼쪽 → 오른쪽 → 루트
+
+#### [ 이진 트리 순회 코드 ]
