@@ -71,3 +71,82 @@
   - 왼쪽 → 오른쪽 → 루트
 
 #### [ 이진 트리 순회 코드 ]
+``` jsx
+class Node{
+  constructor(data){
+    this.left = null;
+    this.value = data;
+    this.right = null;
+  }
+}
+class BinarySearchTree {
+  constructor() {
+    this.root = null;
+  }
+
+  insert(data) {
+    let newNode = new Node(data);
+    if (this.root === null) {
+      this.root = newNode;
+    } else {
+      this.insertNode(this.root, newNode);
+    }
+  }
+
+  insertNode(node, newNode) {
+    if (newNode.value < node.value) {
+      if (!node.left) {
+        node.left = newNode;
+      } else {
+        this.insertNode(node.left, newNode);
+      }
+    } else {
+      if (!node.right) {
+        node.right = newNode;
+      } else {
+        this.insertNode(node.right, newNode);
+      }
+    }
+  }
+
+  inorder(node) {
+    if (node !== null) {
+      this.inorder(node.left);
+      console.log(node.value);
+      this.inorder(node.right);
+    }
+  }
+
+  preorder(node) {
+    if (node != null) {
+      console.log(node.value);
+      this.preorder(node.left);
+      this.preorder(node.right);
+    }
+  }
+
+  postorder(node) {
+    if (node != null) {
+      this.postorder(node.left);
+      this.postorder(node.right);
+      console.log(node.value);
+    }
+  }
+}
+
+const binarySearchTree = new BinarySearchTree();
+binarySearchTree.insert(10);
+binarySearchTree.insert(5);
+binarySearchTree.insert(15);
+binarySearchTree.insert(2);
+binarySearchTree.insert(7);
+binarySearchTree.insert(12);
+binarySearchTree.insert(20);
+
+console.log("Inorder traversal");
+binarySearchTree.inorder(binarySearchTree.root);
+console.log("Preorder traversal");
+binarySearchTree.preorder(binarySearchTree.root);
+console.log("Postorder traversal");
+binarySearchTree.postorder(binarySearchTree.root);
+```
