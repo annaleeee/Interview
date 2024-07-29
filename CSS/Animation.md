@@ -12,5 +12,13 @@
   - 간편성
     - CSS만으로 애니메이션을 만듦 → 쉽고 빠르게 작성 가능
 ---
-
-
+`JavaScript Animation`
+- 효율적이고 세밀하게 다룰 수 있음
+- JavaScript의 requestAnimationFrame API나 JavaScript 애니메이션 라이브러리 사용
+  - requestAnimationFrame API ⇒ 프레임을 정확히 제어 가능
+ #### [ 장점 ]
+ - 요소의 스타일이 변하는 스타일마다 제어할 수 있음
+  - 세밀한 구성 가능
+- GPU를 통한 하드웨어 가속 제어 가능
+- 브라우저 호환성 측면에서 CSS보다 뛰어남
+  - 크로스 부라우징 측면에서 좋음
